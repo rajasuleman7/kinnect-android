@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kinnect_teal">#0B5F63</color>
+    <color name="kinnect_teal_dark">#084B4E</color>
+    <color name="kinnect_teal_light">#D9EEEE</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_light">#F7F6F2</color>
+    <color name="light_gray">#F0EFEB</color>
+    <color name="medium_gray">#D8D6D0</color>
+    <color name="dark_gray">#666666</color>
+    <color name="divider_gray">#E3E1DC</color>
+    <color name="text_primary">#111111</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#8A8A8A</color>
+    <color name="avatar_teal">#0B7478</color>
+    <color name="avatar_green">#28795D</color>
+    <color name="avatar_purple">#874B87</color>
+    <color name="avatar_red">#B33B4E</color>
+    <color name="avatar_blue">#4554A4</color>
+    <color name="avatar_brown">#99601D</color>
+    <color name="reaction_red">#E63B50</color>
+    <color name="reaction_yellow">#D99808</color>
+    <color name="reaction_orange">#C65C34</color>
+    <color name="danger_red">#C53A3A</color>
+    <color name="success_green">#27886B</color>
+    <color name="story_dark">#243448</color>
+</resources>
