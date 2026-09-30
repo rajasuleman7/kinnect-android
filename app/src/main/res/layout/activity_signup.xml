@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/background_light">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="48dp" android:orientation="horizontal" android:gravity="center_vertical">
+            <TextView android:layout_width="36dp" android:layout_height="wrap_content" android:text="‹" android:textSize="34sp"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Create account" android:textSize="22sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Step 2 of 3" android:textColor="@color/text_secondary"/>
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="What’s your name and
+birthday?" android:textStyle="bold" android:textSize="26sp" android:layout_marginTop="12dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="14dp">
+            <EditText android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:background="@drawable/bg_input" android:hint="First name" android:text="Jacob"/>
+            <Space android:layout_width="10dp" android:layout_height="1dp"/>
+            <EditText android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:background="@drawable/bg_input" android:hint="Last name" android:text="West"/>
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Birthday  ⓘ" android:textStyle="bold" android:layout_marginTop="10dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="50dp" android:orientation="horizontal">
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@drawable/bg_input" android:gravity="center" android:text="Day
+14"/>
+            <Space android:layout_width="8dp" android:layout_height="1dp"/>
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@drawable/bg_input" android:gravity="center" android:text="Month
+Mar"/>
+            <Space android:layout_width="8dp" android:layout_height="1dp"/>
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@drawable/bg_input" android:gravity="center" android:text="Year
+2004"/>
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gender" android:textStyle="bold" android:layout_marginTop="10dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="48dp" android:orientation="horizontal">
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@drawable/bg_input" android:gravity="center" android:text="Female  ○"/>
+            <Space android:layout_width="8dp" android:layout_height="1dp"/>
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@drawable/bg_teal_outline" android:gravity="center" android:text="Male  ●" android:textColor="@color/kinnect_teal"/>
+            <Space android:layout_width="8dp" android:layout_height="1dp"/>
+            <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@drawable/bg_input" android:gravity="center" android:text="Custom  ○"/>
+        </LinearLayout>
+        <EditText android:layout_width="match_parent" android:layout_height="56dp" android:background="@drawable/bg_input" android:hint="Email" android:text="jacob.west@mail.com" android:layout_marginTop="10dp"/>
+        <EditText android:layout_width="match_parent" android:layout_height="56dp" android:background="@drawable/bg_input" android:hint="New password" android:inputType="textPassword" android:text="password" android:layout_marginTop="10dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="☑  I agree to the Kinnect Terms and Privacy Policy." android:layout_marginTop="12dp"/>
+        <TextView android:id="@+id/btn_create_account" android:layout_width="match_parent" android:layout_height="48dp" android:background="@drawable/bg_teal_rounded" android:gravity="center" android:text="Create account" android:textColor="@color/white" android:textStyle="bold" android:layout_marginTop="12dp"/>
+        <TextView android:id="@+id/txt_login" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="Already have an account? Log in" android:textColor="@color/kinnect_teal" android:layout_marginTop="12dp"/>
+    </LinearLayout>
+</ScrollView>
