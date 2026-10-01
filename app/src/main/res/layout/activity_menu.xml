@@ -1,0 +1,187 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="Menu"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/nav_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Home"
+            android:src="@drawable/home"
+            android:tint="@color/kinnect_teal" />
+        <ImageButton
+            android:id="@+id/nav_friends"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Friends"
+            android:src="@drawable/groups"
+            android:tint="@color/kinnect_teal" />
+        <ImageButton
+            android:id="@+id/nav_marketplace"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Marketplace"
+            android:src="@drawable/storefront"
+            android:tint="@color/kinnect_teal" />
+        <ImageButton
+            android:id="@+id/nav_notifications"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Notifications"
+            android:src="@drawable/notifications"
+            android:tint="@color/kinnect_teal" />
+        <ImageButton
+            android:id="@+id/nav_menu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Menu"
+            android:src="@drawable/menu"
+            android:tint="@color/kinnect_teal" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="14dp">
+            <TextView
+                android:id="@+id/profile_row"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@drawable/bg_white_rounded"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                android:text="JW   Jacob West&#10;      See your profile"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="All shortcuts"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="@drawable/bg_white_rounded"
+                        android:gravity="center"
+                        android:text="Memories" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_white_rounded"
+                        android:gravity="center"
+                        android:text="Groups" />
+                    <TextView
+                        android:id="@+id/row_friends"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_white_rounded"
+                        android:gravity="center"
+                        android:text="Friends" />
+                </LinearLayout>
+                <Space
+                    android:layout_width="8dp"
+                    android:layout_height="1dp" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="@drawable/bg_white_rounded"
+                        android:gravity="center"
+                        android:text="Saved" />
+                    <TextView
+                        android:id="@+id/row_marketplace"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_white_rounded"
+                        android:gravity="center"
+                        android:text="Marketplace" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_white_rounded"
+                        android:gravity="center"
+                        android:text="Events" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_gray_pill"
+                android:gravity="center"
+                android:text="See more" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="8dp"
+                android:text="Help &amp; support" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="8dp"
+                android:text="Settings &amp; privacy" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="8dp"
+                android:text="Also from SMD" />
+            <TextView
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_gray_pill"
+                android:gravity="center"
+                android:text="Log out"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
