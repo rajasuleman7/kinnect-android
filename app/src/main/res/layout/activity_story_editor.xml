@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/black">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/kinnect_motorbike" android:scaleType="centerCrop"/>
+    <ImageButton android:id="@+id/btn_close" android:layout_width="44dp" android:layout_height="44dp" android:layout_gravity="top|start" android:layout_margin="18dp" android:background="@drawable/bg_dark_circle" android:src="@drawable/close" android:tint="@color/white"/>
+    <TextView android:layout_width="220dp" android:layout_height="54dp" android:layout_gravity="center" android:background="@drawable/bg_red_rounded" android:gravity="center" android:text="Saturday plans" android:textColor="@color/white" android:textStyle="bold" android:textSize="22sp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="70dp" android:layout_gravity="bottom" android:orientation="horizontal" android:gravity="center" android:padding="8dp">
+        <TextView android:id="@+id/btn_your_story" android:layout_width="0dp" android:layout_height="54dp" android:layout_weight="1" android:background="@drawable/bg_gray_pill" android:gravity="center" android:text="JW   Your story" android:textStyle="bold"/>
+        <TextView android:layout_width="0dp" android:layout_height="54dp" android:layout_weight="1" android:layout_marginStart="8dp" android:background="@drawable/bg_gray_pill" android:gravity="center" android:text="☆   Close friends" android:textStyle="bold"/>
+        <ImageButton android:layout_width="54dp" android:layout_height="54dp" android:layout_marginStart="8dp" android:background="@drawable/bg_teal_circle" android:src="@drawable/send" android:tint="@color/white"/>
+    </LinearLayout>
+</FrameLayout>
