@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/white">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="58dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="12dp">
+        <ImageButton android:id="@+id/btn_close" android:layout_width="40dp" android:layout_height="40dp" android:background="@android:color/transparent" android:src="@drawable/close"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Create post" android:textStyle="bold" android:textSize="22sp"/>
+        <TextView android:layout_width="72dp" android:layout_height="38dp" android:background="@drawable/bg_teal_rounded" android:gravity="center" android:text="Post" android:textColor="@color/white" android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="70dp" android:orientation="horizontal" android:gravity="center_vertical" android:padding="12dp">
+        <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_avatar_teal" android:gravity="center" android:text="JW" android:textColor="@color/white" android:textStyle="bold"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginStart="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Jacob West" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🌐 Public⌄    + Album⌄" android:textColor="@color/kinnect_teal"/>
+        </LinearLayout>
+    </LinearLayout>
+    <EditText android:layout_width="match_parent" android:layout_height="150dp" android:gravity="top" android:background="@android:color/transparent" android:padding="16dp" android:text="Weekend plan: coffee, sketching,
+and absolutely no email." android:textSize="22sp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="46dp" android:orientation="horizontal" android:gravity="center" android:paddingHorizontal="12dp">
+        <TextView android:layout_width="42dp" android:layout_height="30dp" android:background="@drawable/bg_teal_outline" android:gravity="center" android:text="Aa"/>
+        <View android:layout_width="38dp" android:layout_height="30dp" android:layout_marginStart="8dp" android:background="#0B5F63"/>
+        <View android:layout_width="38dp" android:layout_height="30dp" android:layout_marginStart="8dp" android:background="#C84D27"/>
+        <View android:layout_width="38dp" android:layout_height="30dp" android:layout_marginStart="8dp" android:background="#4554A4"/>
+        <View android:layout_width="38dp" android:layout_height="30dp" android:layout_marginStart="8dp" android:background="#28795D"/>
+    </LinearLayout>
+    <Space android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="260dp" android:orientation="vertical" android:background="@drawable/bg_bottom_sheet" android:padding="16dp">
+        <TextView android:id="@+id/row_photo" android:layout_width="match_parent" android:layout_height="44dp" android:gravity="center_vertical" android:text="🖼   Photo/video" android:textSize="17sp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="44dp" android:gravity="center_vertical" android:text="🏷   Tag people" android:textSize="17sp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="44dp" android:gravity="center_vertical" android:text="☺   Feeling/activity" android:textSize="17sp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="44dp" android:gravity="center_vertical" android:text="⌖   Check in" android:textSize="17sp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="44dp" android:gravity="center_vertical" android:text="▣   Live video" android:textSize="17sp"/>
+        <TextView android:id="@+id/row_camera" android:layout_width="match_parent" android:layout_height="44dp" android:gravity="center_vertical" android:text="📷   Camera" android:textSize="17sp"/>
+    </LinearLayout>
+</LinearLayout>
