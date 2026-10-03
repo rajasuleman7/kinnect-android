@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/white" android:padding="12dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="52dp" android:orientation="horizontal" android:gravity="center_vertical">
+        <ImageButton android:id="@+id/btn_back" android:layout_width="40dp" android:layout_height="40dp" android:background="@android:color/transparent" android:src="@drawable/arrow_back"/>
+        <EditText android:layout_width="0dp" android:layout_height="42dp" android:layout_weight="1" android:background="@drawable/bg_gray_pill" android:text="omar" android:paddingHorizontal="14dp"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="42dp" android:gravity="center_vertical" android:text="All      People      Posts      Groups      Marketplace" android:textStyle="bold"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="People" android:textStyle="bold" android:textSize="20sp" android:layout_marginTop="10dp"/>
+    <TextView android:id="@+id/person_omar" android:layout_width="match_parent" android:layout_height="70dp" android:gravity="center_vertical" android:text="OF   Omar Farooq
+      Friend · Lives in Karachi" android:textSize="17sp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="70dp" android:gravity="center_vertical" android:text="OS   Omar Siddiqui
+      12 mutual friends · FAST-NUCES" android:textSize="17sp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="70dp" android:gravity="center_vertical" android:text="OT   Omar Tariq
+      Works at Daraz · 3 mutual friends" android:textSize="17sp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="42dp" android:background="@drawable/bg_gray_pill" android:gravity="center" android:text="See all people" android:textStyle="bold"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Groups" android:textStyle="bold" android:textSize="20sp" android:layout_marginTop="16dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="70dp" android:text="OP   Omar's Photography Circle
+      Public · 2.4K members · 10+ posts a ...                  Join" android:gravity="center_vertical"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Recent searches" android:textStyle="bold" android:textSize="20sp" android:layout_marginTop="12dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="◷   lina marsh                         ×
+
+◷   study desk karachi              ×
+
+◷   SMD Class of 2026               ×" android:textSize="16sp" android:layout_marginTop="8dp"/>
+</LinearLayout>
