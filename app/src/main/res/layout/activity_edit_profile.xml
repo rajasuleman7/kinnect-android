@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/white">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="52dp" android:orientation="horizontal" android:gravity="center_vertical">
+            <TextView android:id="@+id/btn_cancel" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Cancel"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="Edit profile" android:textStyle="bold" android:textSize="22sp"/>
+            <TextView android:id="@+id/btn_save" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="end" android:text="Save" android:textColor="@color/kinnect_teal" android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Profile picture                                           Edit" android:textStyle="bold" android:textSize="18sp"/>
+        <TextView android:layout_width="110dp" android:layout_height="110dp" android:layout_gravity="center" android:layout_marginTop="10dp" android:background="@drawable/bg_avatar_teal" android:gravity="center" android:text="JW" android:textColor="@color/white" android:textStyle="bold" android:textSize="36sp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cover photo                                               Edit" android:textStyle="bold" android:textSize="18sp" android:layout_marginTop="16dp"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="130dp" android:src="@drawable/kinnect_lake_view" android:scaleType="centerCrop"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Name                 Jacob West
+
+Username          jacob.west
+
+Website             Website
+
+Bio                     Digital goodies designer.
+
+Switch to professional mode" android:textSize="16sp" android:layout_marginTop="20dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Private information" android:textStyle="bold" android:textSize="20sp" android:layout_marginTop="14dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Email                  jacob.west@mail.com
+
+Phone                +92 300 1234567
+
+Gender               Male" android:textSize="16sp" android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</ScrollView>

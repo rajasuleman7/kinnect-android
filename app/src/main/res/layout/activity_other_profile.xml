@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/white">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="52dp" android:orientation="horizontal" android:gravity="center_vertical" android:padding="8dp">
+            <ImageButton android:id="@+id/btn_back" android:layout_width="40dp" android:layout_height="40dp" android:background="@android:color/transparent" android:src="@drawable/arrow_back"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Omar Farooq" android:textStyle="bold" android:textSize="20sp"/>
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent" android:layout_height="150dp" android:src="@drawable/kinnect_car_horse" android:scaleType="centerCrop"/>
+        <TextView android:layout_width="130dp" android:layout_height="130dp" android:layout_gravity="center" android:layout_marginTop="-58dp" android:background="@drawable/bg_avatar_green" android:gravity="center" android:text="OF" android:textColor="@color/white" android:textStyle="bold" android:textSize="42sp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="Omar Farooq" android:textStyle="bold" android:textSize="28sp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="1,204 friends · 38 mutual
+Night photographer. Karachi after dark."/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="54dp" android:orientation="horizontal" android:paddingHorizontal="14dp" android:layout_marginTop="10dp">
+            <TextView android:layout_width="0dp" android:layout_height="46dp" android:layout_weight="1" android:background="@drawable/bg_teal_rounded" android:gravity="center" android:text="Add friend" android:textColor="@color/white" android:textStyle="bold"/>
+            <TextView android:id="@+id/btn_message" android:layout_width="0dp" android:layout_height="46dp" android:layout_weight="1" android:layout_marginStart="8dp" android:background="@drawable/bg_gray_pill" android:gravity="center" android:text="Message" android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:text="Friends with Aisha Khan, Lina Marsh and 36 others
+
+▣  Photographer at Studio Nocturne
+
+⌖  Lives in Karachi, Pakistan
+
+◷  Joined June 2017"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp" android:text="Photos                                               See all" android:textStyle="bold" android:textSize="20sp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="130dp" android:orientation="horizontal" android:padding="12dp">
+            <ImageView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:src="@drawable/kinnect_car_horse" android:scaleType="centerCrop"/>
+            <ImageView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="8dp" android:src="@drawable/kinnect_mountain_sunset" android:scaleType="centerCrop"/>
+            <ImageView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="8dp" android:src="@drawable/kinnect_lake_view" android:scaleType="centerCrop"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
