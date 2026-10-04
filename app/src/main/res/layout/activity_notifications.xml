@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/white">
+    <TextView android:layout_width="match_parent" android:layout_height="56dp" android:gravity="center_vertical" android:paddingHorizontal="16dp" android:text="Notifications" android:textStyle="bold" android:textSize="28sp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="54dp" android:orientation="horizontal" android:gravity="center" android:background="@color/white">
+        <ImageButton android:id="@+id/nav_home" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@android:color/transparent" android:src="@drawable/home" android:tint="@color/kinnect_teal"/>
+        <ImageButton android:id="@+id/nav_friends" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@android:color/transparent" android:src="@drawable/groups" android:tint="@color/kinnect_teal"/>
+        <ImageButton android:id="@+id/nav_marketplace" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@android:color/transparent" android:src="@drawable/storefront" android:tint="@color/kinnect_teal"/>
+        <ImageButton android:id="@+id/nav_notifications" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@android:color/transparent" android:src="@drawable/notifications" android:tint="@color/kinnect_teal"/>
+        <ImageButton android:id="@+id/nav_menu" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@android:color/transparent" android:src="@drawable/menu" android:tint="@color/kinnect_teal"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:layout_width="match_parent" android:layout_height="36dp" android:paddingHorizontal="16dp" android:text="New" android:textStyle="bold" android:textSize="18sp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="74dp" android:background="@color/kinnect_teal_light" android:gravity="center_vertical" android:paddingHorizontal="16dp" android:text="AK   Aisha Khan and 32 others reacted to your photo.
+      5m"/>
+            <TextView android:layout_width="match_parent" android:layout_height="90dp" android:background="@color/kinnect_teal_light" android:gravity="center_vertical" android:paddingHorizontal="16dp" android:text="SI   Sara Iqbal sent you a friend request.
+      20m        CONFIRM        DELETE"/>
+            <TextView android:layout_width="match_parent" android:layout_height="40dp" android:paddingHorizontal="16dp" android:gravity="center_vertical" android:text="Earlier" android:textStyle="bold" android:textSize="18sp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="75dp" android:gravity="center_vertical" android:paddingHorizontal="16dp" android:text="ZR   Zain Raza replied to your comment:
+      “next time invite the rest of us” · 2h"/>
+            <TextView android:layout_width="match_parent" android:layout_height="75dp" android:gravity="center_vertical" android:paddingHorizontal="16dp" android:text="DC   New post in SMD Class of 2026:
+      “Assignment 1 is out. Start early.” · 5h"/>
+            <TextView android:layout_width="match_parent" android:layout_height="75dp" android:gravity="center_vertical" android:paddingHorizontal="16dp" android:text="HA   Hamza Ali tagged you in a post. · Yesterday"/>
+            <TextView android:layout_width="match_parent" android:layout_height="75dp" android:gravity="center_vertical" android:paddingHorizontal="16dp" android:text="LM   Lina Marsh liked your story. · 2d"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
