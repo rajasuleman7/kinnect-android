@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/white">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="56dp" android:orientation="horizontal" android:gravity="center_vertical" android:padding="10dp">
+        <ImageButton android:id="@+id/btn_back" android:layout_width="40dp" android:layout_height="40dp" android:background="@android:color/transparent" android:src="@drawable/arrow_back"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Chats" android:textStyle="bold" android:textSize="26sp"/>
+        <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/edit"/>
+    </LinearLayout>
+    <EditText android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginHorizontal="16dp" android:background="@drawable/bg_gray_pill" android:hint="Search" android:paddingHorizontal="14dp"/>
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="92dp" android:scrollbars="none">
+        <TextView android:layout_width="wrap_content" android:layout_height="match_parent" android:gravity="center_vertical" android:paddingHorizontal="18dp" android:text="＋ Your note       AK Aisha       OF Omar       SI Sara       HA Hamza"/>
+    </HorizontalScrollView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="vertical" android:paddingHorizontal="16dp">
+        <TextView android:id="@+id/chat_aisha" android:layout_width="match_parent" android:layout_height="66dp" android:gravity="center_vertical" android:text="AK   Aisha Khan
+      Sending the photos tonight · 2m                  ●" android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent" android:layout_height="66dp" android:gravity="center_vertical" android:text="ZR   Design crew
+      Maya: the new mockups look clean · 15m           ●"/>
+        <TextView android:layout_width="match_parent" android:layout_height="66dp" android:gravity="center_vertical" android:text="LM   Lina Marsh
+      You: See you at the pier · 1h"/>
+        <TextView android:layout_width="match_parent" android:layout_height="66dp" android:gravity="center_vertical" android:text="OF   Omar Farooq
+      Haha that story was wild · 3h"/>
+        <TextView android:layout_width="match_parent" android:layout_height="66dp" android:gravity="center_vertical" android:text="BA   Bilal Ahmed
+      Thanks, bro! · Mon"/>
+        <TextView android:layout_width="match_parent" android:layout_height="66dp" android:gravity="center_vertical" android:text="NF   Noor Fatima
+      You: Happy birthday! · Sun"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="54dp" android:gravity="center" android:text="Chats                 People                 Stories" android:textStyle="bold" android:textColor="@color/kinnect_teal"/>
+</LinearLayout>

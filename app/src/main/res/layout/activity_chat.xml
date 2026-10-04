@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/white">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="60dp" android:orientation="horizontal" android:gravity="center_vertical" android:padding="8dp">
+        <ImageButton android:id="@+id/btn_back" android:layout_width="40dp" android:layout_height="40dp" android:background="@android:color/transparent" android:src="@drawable/arrow_back"/>
+        <TextView android:layout_width="42dp" android:layout_height="42dp" android:background="@drawable/bg_avatar_red" android:gravity="center" android:text="AK" android:textColor="@color/white"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="8dp" android:text="Aisha Khan
+Active now" android:textStyle="bold"/>
+        <ImageButton android:id="@+id/btn_call" android:layout_width="44dp" android:layout_height="44dp" android:background="@android:color/transparent" android:src="@drawable/call" android:tint="@color/kinnect_teal"/>
+        <ImageButton android:layout_width="44dp" android:layout_height="44dp" android:background="@android:color/transparent" android:src="@drawable/video_call" android:tint="@color/kinnect_teal"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="AK
+Aisha Khan
+You're friends on Kinnect · Lives in Karachi
+
+TODAY 4:49 PM" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bg_comment_bubble" android:text="Hey! Are you still coming Saturday?
+Lina booked the table for 8
+Bring the camera" android:padding="12dp" android:layout_marginTop="12dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="@drawable/bg_teal_rounded" android:text="Yes, obviously
+Already charged both batteries" android:textColor="@color/white" android:padding="12dp" android:layout_marginTop="10dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="@drawable/bg_teal_rounded" android:text="Perfect, I'll be there by 7:45" android:textColor="@color/white" android:padding="12dp" android:layout_marginTop="10dp"/>
+            <ImageView android:layout_width="230dp" android:layout_height="150dp" android:layout_gravity="end" android:layout_marginTop="10dp" android:src="@drawable/kinnect_mountain_sunset" android:scaleType="centerCrop"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="60dp" android:orientation="horizontal" android:gravity="center_vertical" android:padding="8dp">
+        <TextView android:layout_width="44dp" android:layout_height="44dp" android:gravity="center" android:text="＋" android:textColor="@color/kinnect_teal" android:textSize="28sp"/>
+        <ImageButton android:layout_width="42dp" android:layout_height="42dp" android:background="@android:color/transparent" android:src="@drawable/camera" android:tint="@color/kinnect_teal"/>
+        <EditText android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:background="@drawable/bg_gray_pill" android:hint="Aa" android:paddingHorizontal="14dp"/>
+        <ImageButton android:layout_width="42dp" android:layout_height="42dp" android:background="@android:color/transparent" android:src="@drawable/thumb_up" android:tint="@color/kinnect_teal"/>
+    </LinearLayout>
+</LinearLayout>
