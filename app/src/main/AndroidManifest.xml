@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Kinnect"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kinnect">
+
+        <activity android:name=".MarketplaceActivity" />
+        <activity android:name=".VoiceCallActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ChatsActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".OtherProfileActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".FriendsActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".YourStoryActivity" />
+        <activity android:name=".StoryViewerActivity" />
+        <activity android:name=".StoryEditorActivity" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".PhotoPickerActivity" />
+        <activity android:name=".CreatePostActivity" />
+        <activity android:name=".CommentsActivity" />
+        <activity android:name=".ReactionActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
